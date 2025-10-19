@@ -18,24 +18,20 @@ document.addEventListener("DOMContentLoaded", function () {
 
 // Sincerely,`;
 
-            const defaultEmailBody = `Dear ICC Officials,
+            const defaultEmailBody = `Dear ICC Enquiries Team,
 
-As a Pakistani citizen and lifelong cricket fan, I am writing with deep disappointment over the increasingly partisan and politically influenced posture of the International Cricket Council — or as many fans now sadly call it, the “Indian Cricket Council.”
+I am writing as a global cricket fan who has always admired the ICC for being the ultimate guardian of fairness, sportsmanship, and inclusivity in the world of cricket. However, recent developments have raised serious concerns about the ICC’s neutrality and its perceived tilt toward one particular member — India.
 
-The ICC’s silence and selective approach to issues where India’s political narratives are involved have become glaring. By allowing its platform and banner to be used to amplify baseless propaganda — such as the recent claim that Pakistan’s counter-terrorism action targeted “club-level cricketers” — the ICC has strayed far from its founding principles of fairness, neutrality, and integrity.
+Many cricket followers now openly question whether the ICC still stands for “International” or has effectively become the “Indian Cricket Council.” This perception has been reinforced by the ICC’s silence on politically motivated narratives being circulated through Indian media and affiliated voices — such as the recent false claim that Pakistan’s counter-terrorism operation targeted “club-level cricketers.” Such narratives not only politicize cricket but also exploit the sport’s global platform to mislead and divide fans.
 
-This narrative, originated and fueled by Indian media and their Afghan proxies, is not only false but also malicious. It deliberately exploits cricket’s emotional value to mislead global audiences and malign Pakistan — a full and equal member of the ICC family. Your silence in the face of this politicization amounts to complicity.
+As a fan of the game rather than of any particular team, I wish to ask:
+1. What concrete mechanisms does the ICC have to prevent the misuse of its forums and communications for political or nationalistic propaganda?
+2. How does the ICC ensure independence from commercial or political influence by any one member nation?
+3. Will the ICC issue a clarification reaffirming its commitment to neutrality, fairness, and the true spirit of cricket?
 
-Cricket is meant to unite, not divide. The ICC was established to safeguard the game from exactly this kind of political contamination. Yet today, the organization appears captive to one country’s political and commercial influence — betraying the trust of millions of fans worldwide who once saw the ICC as a symbol of global sportsmanship.
+Cricket has long been celebrated as a sport that unites nations and inspires generations. Allowing it to be used for political ends is a betrayal of that spirit. I sincerely hope the ICC leadership will act to restore balance, transparency, and the integrity that once defined this great institution.
 
-I urge the ICC leadership to immediately:
-1. Reassert its neutrality and distance itself from politically motivated narratives.
-2. Condemn the misuse of cricket platforms for propaganda against any member nation.
-3. Recommit to the ICC’s true spirit — fairness, inclusivity, and the global growth of cricket, especially women’s and youth participation.
-
-If the ICC continues down this path, it risks being remembered not as the guardian of cricket but as an instrument of selective politics — a sad decline from “International” to “Indian” Cricket Council.
-
-Respectfully,
+Regards
 `;
             // Display the initial default email body
             emailTextArea.textContent = defaultEmailBody;
@@ -45,7 +41,7 @@ Respectfully,
 
             // Add event listener to the send email button
             sendEmailButton.addEventListener("click", function () {
-                const mailtoLink = `mailto:${allEmailAddresses}?subject=${encodeURIComponent('ICC Must Stop Acting Like the “Indian Cricket Council')}&body=${encodeURIComponent(defaultEmailBody)}`;
+                const mailtoLink = `mailto:${allEmailAddresses}?subject=${encodeURIComponent('Enquiry Regarding ICC’s Increasing Political Bias and Perceived Indian Influence')}&body=${encodeURIComponent(defaultEmailBody)}`;
                 
                 // Set mailto link and update email content preview in textarea
                 sendEmailButton.href = mailtoLink;
